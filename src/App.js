@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route} from 'react-router-dom';
+import { Login } from './components';
+import {
+    MainContainer,
+    CoffeeContainer,
+    OrderContainer,
+    DrinkContainer,
+    DessertContainer,
+    SmoothieContainer,
+} from './Container';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return(
+        <>
+            <BrowserRouter>
+                <Route exact path="/" component={MainContainer}/>
+                <Route path="/CoffeeContainer" component={CoffeeContainer}/>
+                <Route path="/OrderContainer" component={OrderContainer}/>
+                <Route path="/SmoothieContainer" component={SmoothieContainer}/>
+                <Route path="/DessertContainer" component={DessertContainer}/>
+                <Route path="/DrinkContainer" component={DrinkContainer}/>
+                <Route path="/Login" component={Login}/>
+            </BrowserRouter>
+        </>
+    )
 }
 
 export default App;
