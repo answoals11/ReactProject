@@ -59,6 +59,7 @@ const ulStyle = styled.ul`
     padding-left: 0px;
     margin: 0 auto;
 `;
+
 function Header() {
     return (
         <HeaderContent>
@@ -73,7 +74,7 @@ function Header() {
                         <Link to="CoffeeContainer" style={{color: 'white', textDecoration: "none"}}>커피</Link>
                     </BetweenSpace>
                     <BetweenSpace>
-                        <Link to="SmoothieContainer" style={{color: 'white', textDecoration: "none"}}>스무디</Link>
+                        <Link to="TeaContainer" style={{color: 'white', textDecoration: "none"}}>티</Link>
                     </BetweenSpace>
                     <BetweenSpace>
                         <Link to="DessertContainer" style={{color: 'white', textDecoration: "none"}}>디저트</Link>

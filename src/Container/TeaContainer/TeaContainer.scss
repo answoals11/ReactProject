@@ -1,0 +1,31 @@
+.TeaContainer {
+    display: flex;
+    justify-content: center;
+    height: 990px;
+}
+
+.TeaContents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 75.5vw;
+    height: 800px;
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        .img{
+            margin: 30px;
+            width: 220px;
+            height: 220px;
+        }
+    
+        
+    }
+}
+    

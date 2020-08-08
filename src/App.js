@@ -8,7 +8,7 @@ import {
     OrderContainer,
     DrinkContainer,
     DessertContainer,
-    SmoothieContainer,
+    TeaContainer,
 } from './Container';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
                 <Route exact path="/" component={MainContainer}/>
                 <Route path="/CoffeeContainer" component={CoffeeContainer}/>
                 <Route path="/OrderContainer" component={OrderContainer}/>
-                <Route path="/SmoothieContainer" component={SmoothieContainer}/>
+                <Route path="/TeaContainer" component={TeaContainer}/>
                 <Route path="/DessertContainer" component={DessertContainer}/>
                 <Route path="/DrinkContainer" component={DrinkContainer}/>
                 <Route path="/Login" component={Login}/>
