@@ -1,7 +1,10 @@
 .CoffeeContainer {
     display: flex;
     justify-content: center;
-    height: 990px;
+    height: auto;
+
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .CoffeeContents {
@@ -11,7 +14,7 @@
     align-items: center;
 
     width: 75.5vw;
-    height: 800px;
+    height: auto;
 
     .content{
         display: flex;
@@ -23,6 +26,14 @@
             margin: 30px;
             width: 220px;
             height: 220px;
+
+            &:hover {
+                -ms-transform: scale(1.1);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+                transition: all 0.3s ease-in-out;
+                cursor: pointer;
+             }
         }
     
         

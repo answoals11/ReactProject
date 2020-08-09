@@ -1,20 +1,20 @@
-.TeaContainer {
+.DessertContainer {
     display: flex;
     justify-content: center;
-    height: auto;
+    height: 990px;
 
     margin-top: 30px;
     margin-bottom: 100px;
 }
 
-.TeaContents {
+.DessertContents {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
 
     width: 75.5vw;
-    height: auto;
+    height: 800px;
 
     .content{
         display: flex;
