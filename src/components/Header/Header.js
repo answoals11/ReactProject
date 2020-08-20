@@ -6,9 +6,9 @@ import styled, { css } from "styled-components"
 const HeaderContent = styled.div`
     width: 100%;
     height: 140px;
-    background-color: #81F79F;
+    background-color: #BFA565;
     color: #ffffff;
-    font-family: Roboto, "sans-serif";
+    font-family: Roboto, "sans-serif"; 
 `;
 
 const HeaderTop = styled.div`

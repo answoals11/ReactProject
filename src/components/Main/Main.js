@@ -1,25 +1,18 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import styled, {css} from 'styled-components';
-
-const MainContainer = styled.div`
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100vw;
-    height: 587px;
-    background: #ffffff;
-    overflow: hidden;
-    color: #ffffff;
-`;
+import './Main.scss';
 
 function Main() {
     return(
-        <MainContainer>
-
-        </MainContainer>
+        <div className="MainContainer">
+            <div className="textSpace">
+                <div id="section-1" className="animated fadeInLeft">hello</div>
+                <div id="section-2" className="animated fadeInLeft">world</div>
+            </div>
+            
+        </div>
     )
 }
+
 
 export default Main;

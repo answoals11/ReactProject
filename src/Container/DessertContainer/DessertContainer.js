@@ -19,7 +19,7 @@ function DessertContainer() {
         <div className="TeaContents">
           <div className="content">
             <dt>
-              <img src={img1} className="img" />
+              <img src={img1} className="img"/>
             </dt>
             <dd className="CName">뺑 오 쇼콜라</dd>
           </div>
