@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# This file is designed to practice css and animation design.
+
+I copied the Starbucks design.
+
 ## Available Scripts
 
 In the project directory, you can run:
