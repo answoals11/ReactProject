@@ -6,6 +6,7 @@ import "./Login.scss";
 
 const LoginContainer = styled.div`
   display: flex;
+  padding-top: 140px;
   justify-content: center;
 `;
 

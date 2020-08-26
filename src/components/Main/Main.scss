@@ -1,35 +1,162 @@
 .MainContainer {
     display: flex;
-    justify-content: center;
+    padding-top: 140px;
     flex-direction: column;
-    align-items: center;
     width: 100vw;
-    height: 587px;
+    align-items: baseline;
+    height: 3000px;
     background: #ffffff;
 
     .textSpace {
         display: flex;
         width: 100%;
-        height: 300px;
-        justify-content: center;
-        align-items: center;
+        height: 3%;
         flex-direction: column;
+        margin-top: 50px;
+        font-size: 2rem;
+        color: skyblue;
 
         #section-1 {
             position: relative;
             animation-name: Fade-left;
             animation-duration: 4s;
+            animation-fill-mode: forwards;
         }
         #section-2 {
             position: relative;
             animation-name: Fade-left;
-            animation-duration: 2s;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
         }
     }
+    .btSpace {
+        width: 100%;
+        height: 5%;
+    }
+    #parentImg {
+        position: relative;
+    }
+    .intro {
+        position: absolute;
+        left: 100px;
+        top: 200px;
+
+        visibility: hidden;
+
+        animation-name: Show;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 4s;
+    }
+    .drink1 {
+        position: absolute;
+        left: 650px;
+        top: 400px;
+        width: 275px;
+
+        visibility: hidden;
+
+        animation-name: Show;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+    }
+    .drink2 {
+        position: absolute;
+        left: 843px;
+        top: 200px;
+        width: 170px;
+        visibility: hidden;
+
+        animation-name: Show;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+    .drink3 {
+        position: absolute;
+        left: 920px;
+        top: 310px;
+        width: 330px;
+
+        visibility: hidden;
+
+        animation-name: Show;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 3s;
+    }
+    .drink1name {
+        position: absolute;
+        left: 440px;
+        top: 600px;
+
+        visibility: hidden;
+
+        animation-name: Show;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+    }
+    .drink2name {
+        position: absolute;
+        left: 600px;
+        top: 250px;
+        visibility: hidden;
+
+        animation-name: Show;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+    }
+    .drink3name {
+        position: absolute;
+        left: 990px;
+        top: 690px;
+        visibility: hidden;
+
+        animation-name: Show;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 3s;
+    }
+
+        .parentImg2 {
+            width: 100%;
+            height: 512px;
+            background-image: url("20_summer_rwanda_bg.jpg");
+            position: relative;
+
+            .rwanda {
+                position: absolute;
+                width: 200px;
+                top: 45px;
+                left: 35px;
+            }
+            #up_on_scroll {
+                transition: transform 3s;
+            }
+            #side_up_on_scroll {
+                transition: transform 3s;
+            }
+            .explain {
+                position: absolute;
+                width: 600px;
+                top: 60px;
+                left: 1500px;
+            }
+        }
+        
+    
     
 }
 
 @keyframes Fade-left {
-    0% { left: -100%; opacity: 0;}
-    100% { left: 0%; opacity: 1;}
+    0% { left: 0%; opacity: 0;}
+    100% { left: 47%; opacity: 1;}
+ }
+
+ @keyframes Show {
+     0% { opacity: 0; }
+     100% { opacity: 1; visibility: visible; }
  }

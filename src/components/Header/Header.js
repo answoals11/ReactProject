@@ -4,11 +4,15 @@ import styled, { css } from "styled-components"
 
 
 const HeaderContent = styled.div`
+    position: fixed;
+    z-index: 9999;
+    top:0;
     width: 100%;
     height: 140px;
-    background-color: #BFA565;
-    color: #ffffff;
-    font-family: Roboto, "sans-serif"; 
+    background-color: #f6f5ef;
+    color: #000000;
+    font-family: Roboto, "sans-serif";
+    border-bottom: 1px solid #e5e5e5;
 `;
 
 const HeaderTop = styled.div`
@@ -17,7 +21,7 @@ const HeaderTop = styled.div`
 `;
 
 const Logo = styled.span`
-    color: #ffffff;
+    color: #000000;
     font-size: 30px;
     font-weight: bold;
 
@@ -71,22 +75,22 @@ function Header() {
             <HeaderMiddle>
                 <ulStyle>
                     <BetweenSpace>
-                        <Link to="CoffeeContainer" style={{color: 'white', textDecoration: "none"}}>커피</Link>
+                        <Link to="CoffeeContainer" style={{color: 'black', textDecoration: "none"}}>커피</Link>
                     </BetweenSpace>
                     <BetweenSpace>
-                        <Link to="TeaContainer" style={{color: 'white', textDecoration: "none"}}>티</Link>
+                        <Link to="TeaContainer" style={{color: 'black', textDecoration: "none"}}>티</Link>
                     </BetweenSpace>
                     <BetweenSpace>
-                        <Link to="DessertContainer" style={{color: 'white', textDecoration: "none"}}>디저트</Link>
+                        <Link to="DessertContainer" style={{color: 'black', textDecoration: "none"}}>디저트</Link>
                     </BetweenSpace>
                     <BetweenSpace>
-                        <Link to="DrinkContainer" style={{color: 'white', textDecoration: "none"}}>음료</Link>
+                        <Link to="DrinkContainer" style={{color: 'wblack', textDecoration: "none"}}>음료</Link>
                     </BetweenSpace>
                 </ulStyle>
             </HeaderMiddle>
             <HeaderBottom>
-                <Link to="OrderContainer" style={{color: 'white', textDecoration: "none"}}>주문하기</Link>
-                <Link to="Login" style={{color: 'white', textDecoration: "none"}}>로그인</Link>
+                <Link to="OrderContainer" style={{color: 'black', textDecoration: "none"}}>주문하기</Link>
+                <Link to="Login" style={{color: 'black', textDecoration: "none"}}>로그인</Link>
             </HeaderBottom>
         </HeaderContent>
     )
