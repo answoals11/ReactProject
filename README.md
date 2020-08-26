@@ -2,7 +2,35 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # This file is designed to practice css and animation design.
 
-I copied the Starbucks design.
+I copied the Starbucks design and you can learn animation code with my code.
+
+## File Info
+
+This project is largely divided into components folder and container folder, And I used the structure of spa.
+
+### `components Folder`
+
+This folder is divided into four folders again.
+
+#### `Footer`
+
+I have created the bottom part of the web page.
+The school and copyright of the person who created the web page are written here.
+
+#### `Header`
+
+I have created the top part of the web page.
+Here I have created a menu bar, and you can access the folders in the container folder.
+
+#### `LoginForm`
+
+I have created a login form for a web page.
+The login form source was extracted from Google and used.
+
+#### `Main`
+
+This is the first screen you see when you run it.
+Files with animation effects.
 
 ## Available Scripts
 
