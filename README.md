@@ -7,6 +7,7 @@ I copied the Starbucks design and you can learn animation code with my code.
 ## File Info
 
 This project is largely divided into components folder and container folder, And I used the structure of spa.
+Export at once to index.js files to reduce file complexity and make it easy to see.
 
 ### `components Folder`
 
