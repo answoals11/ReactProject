@@ -32,6 +32,34 @@ The login form source was extracted from Google and used.
 This is the first screen you see when you run it.
 Files with animation effects.
 
+### `Container Folder`
+
+This folder is divided into six folders again.
+
+#### `Coffee Container`
+
+This is the screen that comes out when you press the coffee in the menu bar. The coffee menu appears.
+
+#### `Dessert Container`
+
+This is the screen that comes out when you click on the dessert in the menu bar. The type of dessert appears.
+
+#### `Drink Container`
+
+This is the screen that comes out when you press the drink in the menu bar. The type of drink appears.
+
+#### `Main Container`
+
+This is the screen that comes out when you press the logo on the menu bar. I filled out the contents that will go into the main page.
+
+#### `Order Container`
+
+This is the screen that comes out when you click Order on the menu bar. I added a search bar and all kinds of menus.
+
+#### `Tea Container`
+
+This is the screen that comes out when you press the tee on the menu bar. The menus on the tee appear.
+
 ## Available Scripts
 
 In the project directory, you can run:
